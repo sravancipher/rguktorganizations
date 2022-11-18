@@ -20,7 +20,7 @@ if(isset($_POST['save']))
     }
     else
     {
-        echo "Error: ".$sql. "".mysqli_error($conn);
+        echo "Error: ".mysqli_error($conn);
     }
     mysqli_close($conn);
 }
