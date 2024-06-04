@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Ecrush</title>
+    <style>
+        body{
+            background-image: url('bg.jfif');
+            background-size: cover;
+            width:100%;
+            height:200px;
+            background-attachment: fixed;
+        }
+        #card:hover{
+            box-shadow: 5px 10px 20px gray;
+        }
+        #courses_card:hover{
+            box-shadow: 5px 10px 20px gray;
+        }
+    </style>
+</head>
+<body >
+    <div class="navbar navbar-expand-sm  navbar-dark bg-dark ">
+        <div class="container mt-2">
+            <a class="navbar-brand">
+                <img src="1.jpg" class="rounded-circle img-fluid w-25">
+            </a>
+            <div class="navbar-nav">
+                <li class="nav-item m-2">
+                    <a class="nav-link" href="#"> Home</a>
+                </li>
+                <li class="nav-item m-2">
+                    <a class="nav-link" href="#"> About</a>
+                </li>
+                <li class="nav-item m-2">
+                    <a class="nav-link" href="#"> Weekend Trivia</a>
+                </li>
+                <div class="nav-item m-2 dropdown">
+                    <a class="nav-link" href="#">Courses</a>
+                </div>
+                <div class="nav-item m-2">
+                    <a class="nav-link" href="#">Events</a>
+                </div>
+                <div class="nav-item m-2 dropdown">
+                    <div class="nav-link dropdown-toggle" role="button" href="#" data-bs-toggle="dropdown">Clubs</div>
+                    <ul class="dropdown-menu">
+                        <div class="dropdown-item" href="#">E-Library</div>
+                        <div class="dropdown-item" href="#">E-Skills</div>
+                        <div class="dropdown-item" href="#">Soft & Communication Skills</div>
+                        <div class="dropdown-item" href="#">Content Writing</div>
+                        <div class="dropdown-item" href="#">Photography</div>
+                        <div class="dropdown-item" href="#">Quiz</div>
+                        <div class="dropdown-item" href="#">Podcasting</div>
+                    </ul>
+                </div>
+                <div class="nav-item m-2">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </div>
+                <div class="nav-item m-2">
+                    <div class="btn btn-primary">News Paper<i class="fas fa-arrow-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="margin-top:10%;">
+            <div class="col-lg-8">
+                <div class="blockquote d-flex flex-column justify-content-center" style="font-size:6vw;color:darkblue" >E-Crush</div>
+                <p class="display-7 text-light line anim-typewriter" style="margin:-5% 0 0 20%" >Provision for your vision</p>
+                <p class="text text-light mt-4" style="font-size:2vw;">This site is intended to provide the best resources to the RGUKTians.</p>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+        <div class="row m-5"></div>
+        <div class="row m-5"></div>
+    </div>
+    <div class="container-fluid bg-light p-1">
+        <div class="container mt-5 bg-light">
+            <div class="h1 text-center"><b>ABOUT US</b></div>
+            <div class="row m-2"></div>
+            <div class="row mb-5">
+                <div class="col-md-6">
+                    <div class="h3">E-CRUSH---PROVISION FOR YOUR VISION</div>
+                    <div class="text" style="line-height:25px">E-Crush is a student body organisation meant to support students with their english developing skills. It is intended to promote best resources to the students of RGUKT to learn English fluently without hesitation and with confidence.
+
+                        It is the best platform to improve yourself in many ways related to English..
+                       The motto is to help students leave the fear behind and move forward to learn English with love and enthusiasm.
+                       Our mission is to make every student and every volunteer to be good in English LSRW(Listening, Speaking, Reading, and Writing) skills.
+                       We provide you a platform to learn many helpful things. We spread knowledge of English to all students of the campus by our daily activities, events, sessions, talks and many more..
+                       <a class="text-primary" href="#">read more</a>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-5" >
+                    <div id="about_slider" data-bs-ride="carousel" class="carousel slide ">
+                        <!--<div class="carousel-indicators">
+                            <button data-bs-slide-to="0" data-bs-target="#about_slider" class="active"></button>
+                            <button data-bs-slide-to="1" data-bs-target="#about_slider"></button>
+                            <button data-bs-slide-to="2" data-bs-target="#about_slider"></button>
+                            <button data-bs-slide-to="3" data-bs-target="#about_slider"></button>
+                        </div>-->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="c2.jfif" class="mx-auto d-block" style="width:100%;height:350px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="c3.jfif" class="mx-auto d-block" style="width:100%;height:350px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="c5.jpg" class="mx-auto d-block" style="width:100%;height:350px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="c6.jpg" class="mx-auto d-block" style="width:100%;height:350px;">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#about_slider"><span class="carousel-control-prev-icon"></span></button>
+                        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#about_slider"><span class="carousel-control-next-icon"></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="h1 text-center"><b>WEEK WITH E-CRUSH</b></div>
+            <div class="row m-2"></div>
+            <div class="row mb-5">
+                <div class="col-md-6">
+                    <div class="h3 text-center"><b>DAILY POSTS</b></div>
+                    <div id="posts_slider" data-bs-ride="carousel" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button data-bs-target="#posts_slider" data-bs-slide-to="0" class="active"></button>
+                            <button data-bs-target="#posts_slider" data-bs-slide-to="1"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="1.jpeg" class="mx-auto d-block" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="2.jpeg" class="mx-auto d-block" style="width:100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="h1 text-center"><b>CLUBS</b></div>
+            <div class="row m-2"></div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card p-3" id="card" style="background-color: rgba(123,132,233,0.3);">
+                        <img src="e-library.webp" class="card-img-top">
+                        <div class="card-body" >
+                            <div class="card-title text-center" style="color:darkblue"><b>E-Library</b></div>
+                            <div class="card-text text-center">Explore through the shelves of our library...</div>
+                            <div class="btn btn-primary d-block">Visit</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-3" id="card">
+                        <img src="e-skills.webp" class="card-img-top">
+                        <div class="card-body" >
+                            <div class="card-title text-center" style="color:darkblue"><b>E-Skills</b></div>
+                            <div class="card-text text-center">Enhance skills into strongest weapons...</div>
+                            <div class="btn btn-primary d-block">Visit</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-3" id="card" style="background-color: rgba(244,132,233,0.3);">
+                        <img src="soft and communication.webp" class="card-img-top">
+                        <div class="card-body" >
+                            <div class="card-title text-center" style="color:darkblue"><b>Soft and Communication</b></div>
+                            <div class="card-text text-center">Improves you in eloquence and fluency...</div>
+                            <div class="btn btn-primary d-block">Visit</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-3" id="card">
+                        <img src="content-writing.webp" class="card-img-top">
+                        <div class="card-body" >
+                            <div class="card-title text-center" style="color:darkblue"><b>Content Writing</b></div>
+                            <div class="card-text text-center">Build a pavement for your voice and visions...</div>
+                            <div class="btn btn-primary d-block">Visit</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-2"></div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card p-3" id="card" >
+                        <img src="photography.webp" class="card-img-top">
+                        <div class="card-body" >
+                            <div class="card-title text-center" style="color:darkblue"><b>Photography</b></div>
+                            <div class="card-text text-center">Captures our charming moments...</div>
+                            <div class="btn btn-primary d-block">Visit</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-3" id="card" style="background-color: rgba(123,244,233,0.3);">
+                        <img src="quiz.webp" class="card-img-top">
+                        <div class="card-body" >
+                            <div class="card-title text-center" style="color:darkblue"><b>Quiz</b></div>
+                            <div class="card-text text-center">Unlocks your knowledge and skills...</div>
+                            <div class="btn btn-primary d-block">Visit</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-3" id="card">
+                        <img src="podcast.webp" class="card-img-top">
+                        <div class="card-body" >
+                            <div class="card-title text-center" style="color:darkblue"><b>Podcasting</b></div>
+                            <div class="card-text text-center">This team works on giving voice over...</div>
+                            <div class="btn btn-primary d-block">Visit</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-3" id="card" style="background-color: rgba(149,111,255,0.3);">
+                        <img src="Website designer.webp" class="card-img-top">
+                        <div class="card-body" >
+                            <div class="card-title text-center" style="color:darkblue"><b>Web Development</b></div>
+                            <div class="card-text text-center">We make progress with lines of code...</div>
+                            <div class="btn btn-primary d-block">Visit</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-2"></div>
+            <div class="row mb-5">
+                <div class="col-md-3">
+                    <div class="card p-3" id="card" style="background-color: rgba(23,123,223,0.3);">
+                        <img src="desigin.webp" class="card-img-top">
+                        <div class="card-body" >
+                            <div class="card-title text-center" style="color:darkblue"><b>Designing</b></div>
+                            <div class="card-text text-center">Your creativity maintains our dignity...</div>
+                            <div class="btn btn-primary d-block">Visit</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-3" id="card">
+                        <img src="technical club.webp" class="card-img-top">
+                        <div class="card-body" >
+                            <div class="card-title text-center" style="color:darkblue"><b>Technical</b></div>
+                            <div class="card-text text-center">Brings us together through technology...</div>
+                            <div class="btn btn-primary d-block">Visit</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-3" id="card" style="background-color: rgba(11,11,200,0.3);">
+                        <img src="promotion and marketing.webp" class="card-img-top">
+                        <div class="card-body" >
+                            <div class="card-title text-center" style="color:darkblue"><b>Promotion & Marketing</b></div>
+                            <div class="card-text text-center">Best way to connect and reach you...</div>
+                            <div class="btn btn-primary d-block">Visit</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-3" id="card">
+                        <img src="infra.webp" class="card-img-top">
+                        <div class="card-body" >
+                            <div class="card-title text-center" style="color:darkblue"><b>Infra Team</b></div>
+                            <div class="card-text text-center">We teach you real-time dedication...</div>
+                            <div class="btn btn-primary d-block">Visit</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="h1 text-center"><b>OUR COURSES</b></div>
+            <div class="row m-2"></div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card h-100" id="courses_card">
+                        <img src="Spoken english.webp" class="card-img-top">
+                        <div class="card-body">
+                            <a class="card-link" href="#" style="text-decoration:none">No. of videos: 55</a>
+                            <a class="card-link" href="#" style="text-decoration:none;float:right"><b>FREE</b></a>  
+                            <div class="card-title "><b> Spoken English Classes</b></div>
+                            <div class="card-text">
+                                This course provides you the content for learning English and you'll be taught how to apply it in your daily communication.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100" id="courses_card">
+                        <img src="E grammar.webp" class="card-img-top" >
+                        <div class="card-body">
+                            <a class="card-link" href="#" style="text-decoration:none">No. of videos: 4</a>
+                            <a class="card-link" href="#" style="text-decoration:none;float:right"><b>FREE</b></a>
+                            <div class="card-title "><b>English Grammar</b></div>
+                            <div class="card-text">
+                                Grammar is the basic structure of any language. This course introduces you the different aspects of grammar in English language.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100" id="courses_card">
+                        <img src="Airforce.webp" class="card-img-top">
+                        <div class="card-body">
+                            <a class="card-link" href="#" style="text-decoration:none">No. of videos: 7</a>
+                            <a class="card-link" href="#" style="text-decoration:none;float:right"><b>FREE</b></a>
+                            <div class="card-title "><b>Indian Air Force</b></div>
+                            <div class="card-text">
+                                This course helps many students and aspirants in learning English required for cracking IAF examination.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-2">
+                    <a class="text-center" style="text-decoration:none;font-size:3vw;" href="#"><b>Explore more</b></a>
+                </div>
+            </div>
+            <div class="h1 text-center"><b>QUICK LINKS</b></div>
+            <div class="row m-2"></div>
+            <div class="h1 text-center"><b>RGUKT Websites</b></div>
+            <div class="row mb-4 p-4">
+                <div class="col-md-3">
+                    <button class="btn btn-primary mx-5">RGUKT Nuzvid</button>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary mx-5">RGUKT RK Valley</button>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary mx-5">RGUKT Sklm</button>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary mx-5">RGUKT Ongole</button>
+                </div>
+            </div>
+            <div class="h1 text-center"><b>Student Websites</b></div>
+            <div class="row mb-4 p-4">
+                <div class="col-md-3">
+                    <button class="btn btn-primary mx-5 px-4">intranet</button>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary mx-5 px-5">SMS</button>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary mx-5">Seating Position</button>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary mx-5">Examination cell</button>
+                </div>
+            </div>
+            <div class="h1 text-center"><b>Student Organization Websites</b></div>
+            <div class="row mb-4 p-4">
+                <div class="col-md-3">
+                    <button class="btn btn-primary mx-5">SDCAC</button>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary mx-5 ">Student Mitra</button>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary mx-5">Helping Hands</button>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary mx-5" style="width:60%">Campus Chronicle</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
